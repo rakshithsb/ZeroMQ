@@ -1,0 +1,9 @@
+#Two different terminals
+
+#First terminal
+g++ server.cpp -o server -lzmq
+./server
+
+#Second terminal
+g++ client.cpp -o client -lzmq
+./client
